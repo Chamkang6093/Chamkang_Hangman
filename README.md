@@ -3,7 +3,7 @@
 ## Overview
 * Applied Deep Q-Learning algorithm to generate and modify strategies repeatedly given a training set of 250,000 words, and the accuracy reached over 25% when it stopped at a given threshold.
 
-## Instructions
+## Instruction
 * When a user plays Hangman, the server first selects a secret word at random from a list. The server then returns a row of underscores (space separated) — one for each letter in the secret word — and asks the user to guess a letter. If the user guesses a letter that is in the word, the word is redisplayed with all instances of that letter shown in the correct positions, along with any letters correctly guessed on previous turns. If the letter does not appear in the word, the user is charged with an incorrect guess. The user keeps guessing letters until either (1) the user has correctly guessed all the letters in the word or (2) the user has made six incorrect guesses.
 
 * We are supposed to write a "guess" function that takes current word (with underscores) as input and returns a guess letter.
